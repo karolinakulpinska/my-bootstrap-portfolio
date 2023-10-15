@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #443233;
+  }
+
+  .navbar-brand img {
+    width: 10vmax;
+    align-items: center;
+    margin: 1vmax 5vmax 1vmax 7vmax;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #3cb6b8;
+    font-weight: bold;
+  }

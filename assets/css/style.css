@@ -900,5 +900,27 @@ body {
     margin-top: 40px;
   }
 
+  /* Contact button ends here */
+
 /* CONTACT section ends here */
+
+/* FOOTER */
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #3cb6b8;
+  font-weight: 300;
+}
+
+.copyright p {
+  color: #ffffff;
+}
+
+.copyright i {
+  color: red;
+}
+
+/* FOOTER section ends here */
 

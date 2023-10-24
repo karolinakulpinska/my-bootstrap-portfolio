@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -29,9 +29,11 @@
 </head>
 
 <body>
+
+    <!-- HOME -->
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary transparent">
             <div class="container-fluid">
                 <!-- Brand logo -->
                 <a class="navbar-brand" href="#"><img src="./assets/images/logo-name-nobg.png" alt="logo with my name"></a>
@@ -40,8 +42,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
                 
                 <!-- Menu -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
                         </li>
@@ -79,23 +81,38 @@
               functional websites, art, illustration and eating pizza.
             </p>
           </div>
+          <!-- Welcome button -->
           <div class="home-welcome-btn">
             <a href="#about" class="welcome-btn">WELCOME</a>
           </div>
           <!-- Header text ends here -->
     </header>
+
+    <!-- ABOUT -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./assets/images/about-bg.png" alt="profile picture with colorful graphics">
+          </div>
+          
+          <div class="about-col-2">
+          <h1 class="subtitle">Hello, my name is Karolina Kulpinska and I'm a front-end web developer based in Accrington, UK.</h1>
+          <p>I have recently finished the <strong>edX Skills Bootcamp in Front-End Web Development</strong> <i>(manifesting)</i> and I'm ready to play! With a background in art & design, I've got a diverse set of skills ranging from illustration and art, throughout graphic design, all the way to HTML, CSS & JavaScript. I'm a well organised person, committed and with an excellent attention to detail. I'm also ambitious and good at achieving deadlines and prioritizing tasks. On top of it all, I'm a big fan of pizza, horror and cats.</p>
+          <!-- Contact me button -->
+          <div class="about-contact-btn">
+            <a href="#contact" class="contact-btn">CONTACT ME</a>
+          </div>
+      </div>
+
+    </div> 
+  </div>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
